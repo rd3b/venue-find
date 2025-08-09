@@ -3,7 +3,7 @@ import Container from "@/components/Container";
 const testimonials = [
   {
     quote:
-      "venue-find delivered brilliant options within 24 hours and negotiated a great rate.",
+      "Erland Events delivered brilliant options within 24 hours and negotiated a great rate.",
     author: "Events Lead, Tech Company",
   },
   {

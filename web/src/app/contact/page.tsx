@@ -23,7 +23,7 @@ export default function ContactPage() {
           <p className="mt-2 text-black/70">We’re UK-based and happy to help.</p>
           <div className="mt-6 space-y-2 text-black/80">
             <p>
-              Email: <Link href="mailto:hello@venue-find.example" className="underline">hello@venue-find.example</Link>
+              Email: <Link href="mailto:hello@erlandevents.example" className="underline">hello@erlandevents.example</Link>
             </p>
             <p>Phone: <span className="font-medium">+44 (0)20 0000 0000</span></p>
             <p>Hours: Mon–Fri, 9:00–17:30 (UK)</p>

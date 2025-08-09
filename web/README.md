@@ -1,6 +1,6 @@
-## venue-find web
+## Erland Events web
 
-Next.js 15 app for the venue-find website.
+Next.js 15 app for the Erland Events website.
 
 ### Tech
 - Next.js 15 (App Router)

@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: ["/"],
       disallow: ["/api/"],
     },
-    sitemap: "https://venue-find.example/sitemap.xml",
+    sitemap: "https://erlandevents.example/sitemap.xml",
   };
 }
 

@@ -15,7 +15,7 @@ export default function Home() {
                 Find the perfect UK venue for your next event
               </h1>
               <p className="mt-5 text-white/80 text-lg">
-                venue-find sources and negotiates meeting, conference, and event spaces across the UK—saving you time and budget.
+                Erland Events sources and negotiates meeting, conference, and event spaces across the UK—saving you time and budget.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/enquiry" className="rounded-md bg-white text-black px-5 py-3 font-medium hover:bg-white/90">Start an enquiry</Link>

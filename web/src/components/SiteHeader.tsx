@@ -20,7 +20,7 @@ export default function SiteHeader() {
       <Container>
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-lg font-semibold tracking-tight">
-            venue-find
+            Erland Events
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             {navItems.map((item) => {

@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <Container>
       <div className="py-12 space-y-6">
-        <h1 className="text-3xl font-semibold">About venue-find</h1>
+        <h1 className="text-3xl font-semibold">About Erland Events</h1>
         <p className="text-black/75 max-w-3xl">
           We’re a UK-based venue finding service helping organisations plan meetings, away days, conferences, and events. We combine market knowledge with strong venue relationships to deliver the right space at the right value.
         </p>

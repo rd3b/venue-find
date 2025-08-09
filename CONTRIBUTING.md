@@ -1,4 +1,4 @@
-## Contributing to venue-find
+## Contributing to Erland Events
 
 Thanks for your interest in contributing! For now, this project is in early development. Please:
 

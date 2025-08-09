@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "venue-find | UK Venue Finding Experts",
-    template: "%s | venue-find",
+    default: "Erland Events | UK Venue Finding Experts",
+    template: "%s | Erland Events",
   },
   description: "UK-based venue finding for meetings, conferences, and events.",
-  metadataBase: new URL("https://venue-find.example"),
+  metadataBase: new URL("https://erlandevents.example"),
   icons: { icon: [
     { url: "/favicon.ico", type: "image/x-icon" },
     { url: "/favicon.svg", type: "image/svg+xml" },
@@ -28,22 +28,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://venue-find.example/",
-    siteName: "venue-find",
-    title: "venue-find | UK Venue Finding Experts",
+    url: "https://erlandevents.example/",
+    siteName: "Erland Events",
+    title: "Erland Events | UK Venue Finding Experts",
     description: "UK-based venue finding for meetings, conferences, and events.",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "venue-find",
+        alt: "Erland Events",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "venue-find | UK Venue Finding Experts",
+    title: "Erland Events | UK Venue Finding Experts",
     description: "UK-based venue finding for meetings, conferences, and events.",
     images: ["/og.png"],
   },

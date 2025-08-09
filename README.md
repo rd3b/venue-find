@@ -1,6 +1,6 @@
-## venue-find
+## Erland Events
 
-UK-based venue finding company website. This repo currently contains the frontend app and supporting assets.
+UK-based venue finding company website for Erland Events. This repo currently contains the frontend app and supporting assets.
 
 ### Structure
 - `web/`: Next.js 15 (App Router) + React 19 + TypeScript + Tailwind CSS v4
@@ -53,5 +53,5 @@ See `CONTRIBUTING.md`.
 See `SECURITY.md` for reporting vulnerabilities.
 
 ### License
-Copyright © 2025 venue-find. All rights reserved.
+Copyright © 2025 Erland Events. All rights reserved.
 

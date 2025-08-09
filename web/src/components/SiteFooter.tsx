@@ -6,7 +6,7 @@ export default function SiteFooter() {
     <footer className="border-t border-black/10 bg-white">
       <Container>
         <div className="py-10 flex flex-col sm:flex-row gap-6 sm:gap-0 items-center justify-between text-sm text-black/70">
-          <p>© {new Date().getFullYear()} venue-find. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Erland Events. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="hover:text-black">Privacy</Link>
             <span aria-hidden>·</span>

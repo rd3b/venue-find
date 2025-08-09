@@ -6,7 +6,7 @@ export default function PrivacyPage() {
       <div className="py-12 prose prose-sm sm:prose lg:prose-lg max-w-none">
         <h1>Privacy Policy</h1>
         <p>
-          This is a placeholder privacy policy for venue-find. We are UK-based and will update this page with full details covering how we process personal data, the lawful bases under UK GDPR, data retention, and your rights.
+          This is a placeholder privacy policy for Erland Events. We are UK-based and will update this page with full details covering how we process personal data, the lawful bases under UK GDPR, data retention, and your rights.
         </p>
         <h2>What we collect</h2>
         <ul>
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         </ul>
         <h2>Contact</h2>
         <p>
-          For privacy enquiries, email us at privacy@venue-find.example.
+          For privacy enquiries, email us at privacy@erlandevents.example.
         </p>
       </div>
     </Container>
