@@ -21,7 +21,32 @@ export const metadata: Metadata = {
   },
   description: "UK-based venue finding for meetings, conferences, and events.",
   metadataBase: new URL("https://venue-find.example"),
-  icons: { icon: "/favicon.ico" },
+  icons: { icon: [
+    { url: "/favicon.ico", type: "image/x-icon" },
+    { url: "/favicon.svg", type: "image/svg+xml" },
+  ] },
+  openGraph: {
+    type: "website",
+    locale: "en_GB",
+    url: "https://venue-find.example/",
+    siteName: "venue-find",
+    title: "venue-find | UK Venue Finding Experts",
+    description: "UK-based venue finding for meetings, conferences, and events.",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "venue-find",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "venue-find | UK Venue Finding Experts",
+    description: "UK-based venue finding for meetings, conferences, and events.",
+    images: ["/og.png"],
+  },
 };
 
 export default function RootLayout({
