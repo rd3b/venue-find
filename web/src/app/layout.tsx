@@ -21,10 +21,15 @@ export const metadata: Metadata = {
   },
   description: "UK-based venue finding for meetings, conferences, and events.",
   metadataBase: new URL("https://erlandevents.example"),
-  icons: { icon: [
-    { url: "/favicon.ico", type: "image/x-icon" },
-    { url: "/favicon.svg", type: "image/svg+xml" },
-  ] },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    other: [
+      { rel: "icon", url: "/erlandevents/logo.webp", type: "image/webp", media: "(prefers-reduced-data: no-preference)" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_GB",
