@@ -5,11 +5,10 @@ import Container from "@/components/Container";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/enquiry", label: "Enquiry" },
+  { href: "/#services", label: "Services" },
+  { href: "/testimonials", label: "Avis" },
+  { href: "/about", label: "À propos" },
   { href: "/contact", label: "Contact" },
-  { href: "/testimonials", label: "Testimonials" },
-  { href: "/about", label: "About" },
 ];
 
 export default function SiteHeader() {
@@ -40,11 +39,8 @@ export default function SiteHeader() {
               );
             })}
           </nav>
-          <Link
-            href="/enquiry"
-            className="rounded-md bg-black text-white px-4 py-2 text-sm font-medium hover:bg-black/90"
-          >
-            Start an enquiry
+          <Link href="/enquiry" className="rounded-md bg-black text-white px-4 py-2 text-sm font-medium hover:bg-black/90">
+            Démarrer
           </Link>
         </div>
       </Container>
